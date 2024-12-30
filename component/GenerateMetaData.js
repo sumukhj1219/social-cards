@@ -1,3 +1,10 @@
+import { getCldOgImageUrl } from 'next-cloudinary';
+ 
+const publicId = 'samples/woman-on-a-football-field';
+const headline = 'High-Performance Image & Video Delivery at Scale in Next.js';
+const tagline = 'Next Cloudinary';
+const logoPublicId = 'samples/woman-on-a-football-field';
+
 export const metadata = {
     openGraph: {
       images: [
