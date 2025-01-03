@@ -1,14 +1,11 @@
-import React from 'react';
-import { metadata as generatedMetadata } from '@/component/GenerateMetaData';
+import React from 'react'
 
-export const metadata = generatedMetadata;
-
-const Page = () => {
+const page = () => {
   return (
     <div>
-      Hello
+      
     </div>
-  );
-};
+  )
+}
 
-export default Page;
+export default page
